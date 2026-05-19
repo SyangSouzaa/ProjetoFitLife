@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <title>Fitlife | TMB</title>
 </head>
+
 <body>
 
     
@@ -47,7 +49,7 @@
                 <label for="age">Idade (anos)</label>
                 <input type="number" id="age" placeholder="Ex: 25" required>
 
-                <button type="submit">Calcular</button>
+                <button type="submit" onclick="calculatorTMB(event)">Calcular</button>
                 <a class="action-btn btn-back" href="../index.html">Voltar</a>
             </form>
 
@@ -60,5 +62,7 @@
         </section>
     </main>
     
+    <script src="../js/tmb.js"></script>
+
 </body>
 </html>

@@ -202,8 +202,28 @@ main {
 }
 
 .result-box {
+    display: none;
     background-color: var(--result-box);
     padding: 1.25rem;
     border-radius: 10px;
     text-align: center;
+}
+
+.show {
+    display: block;
+}
+
+@media(max-width: 480px) {
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        height: 12vh;
+    }
+    .logo{
+        font-size: 1.2rem;
+    }
+    .nav-links{
+        gap: 0.5rem;
+}
+
 }
