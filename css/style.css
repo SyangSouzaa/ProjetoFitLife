@@ -161,6 +161,7 @@ main {
     color: var(--secondary-color);
 }
 
+.form-group select,
 .form-group input {
     padding: 0.8rem;
     border: 2px solid var(--border-color);
@@ -169,7 +170,8 @@ main {
     font-family: inherit;
 }
 
-.form-group input:focus {
+.form-group input:focus,
+.form-group select:focus {
     outline: none;
     border-color: var(--primary-color);
 }
@@ -213,17 +215,10 @@ main {
     display: block;
 }
 
-@media(max-width: 480px) {
-    nav{
+@media (max-width: 480px) {
+    nav {
         flex-direction: column;
         justify-content: center;
         height: 12vh;
     }
-    .logo{
-        font-size: 1.2rem;
-    }
-    .nav-links{
-        gap: 0.5rem;
-}
-
 }
